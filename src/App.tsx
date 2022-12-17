@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback, useState , lazy, Suspense} from 'react';
+ import React, { useEffect, useCallback, useState , lazy, Suspense} from 'react';
 import {useAppDispatch, useAppSelector} from "./app/hooks";
 import {User} from "./global/interfaces";
 import './styles/App.css';
@@ -62,5 +62,7 @@ export default function App() {
       </Router>
     </div>
   );
-}
+} 
+
+
 
